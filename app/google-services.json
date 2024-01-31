@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265441387873",
+    "project_id": "groupe7janv",
+    "storage_bucket": "groupe7janv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265441387873:android:9c07d119299a62a3f39120",
+        "android_client_info": {
+          "package_name": "com.example.formationgroupe7janv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB0V5IBZSAJ6fYsxw9AxWXv3btHCBQtf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
