@@ -7,10 +7,44 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <EditText
+        android:id="@+id/val1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Val 1"
+        android:inputType="number"
+        android:layout_margin="20sp"/>
+
+    <EditText
+        android:id="@+id/val2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Val 2"
+        android:inputType="number"
+        android:layout_margin="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorApp"
+            android:layout_centerHorizontal="true"
+            android:text="+" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/res"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="btn"
-        />
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:textColor="@color/colorApp"
+        android:text="Res"/>
 
 </LinearLayout>
