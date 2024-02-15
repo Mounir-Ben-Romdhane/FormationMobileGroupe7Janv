@@ -1,17 +1,7 @@
 <resources>
     <string name="app_name">FormationGroupe7Janv</string>
-    <string name="app_desc">mel,flea,flma,qeml,f
-mel,flea,flma,qeml,f
-v
-mel,flea,flma,qeml,f
-mel,flea,flma,qeml,f
-mel,flea,flma,qeml,f
-mel,flea,flma,qeml,f
-mel,flea,flma,qeml,fmel,flea,
-flma,qeml,fmel,flea,flma,qeml,
-fmel,flea,flma,qeml,fmel,flea,fl
-ma,qeml,fmel,flea,flma,qeml,fmel,
-flea,flma,qeml,fmel,flea,flma,qeml,fm
-el,flea,flma,qeml,fmel,flea,flma,qeml,fm
-el,flea,flma,qeml,f</string>
+    <string name="goToSignIn"><u>Already have an account !</u></string>
+    <string name="goToForgetPass"><u>Forget password!</u></string>
+    <string name="goToSignUp"><u>New user ! Register here !</u></string>
+    <string name="rememberMe"><u>Remember me !</u></string>
 </resources>
