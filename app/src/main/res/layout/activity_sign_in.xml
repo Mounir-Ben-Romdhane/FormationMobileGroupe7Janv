@@ -59,6 +59,7 @@
             android:layout_margin="10sp"/>
 
         <EditText
+            android:id="@+id/emailSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="15sp"
@@ -77,16 +78,21 @@
             android:layout_marginTop="20sp"/>
 
         <EditText
+            android:id="@+id/passwordSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="15sp"
             android:layout_marginStart="25sp"
             android:layout_marginTop="10sp"
-            android:hint="exemple@gmail.com"
+            android:hint="********"
             android:textStyle="bold"
-            android:textSize="14sp"/>
+            android:textSize="14sp"
+            android:inputType="textPassword"/>
+
+
 
         <CheckBox
+            android:id="@+id/rememberMe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rememberMe"
@@ -97,6 +103,7 @@
             />
 
         <TextView
+            android:id="@+id/goToForgetPass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/goToForgetPass"
@@ -108,6 +115,7 @@
             />
 
         <Button
+            android:id="@+id/btnSignIn"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorApp"
