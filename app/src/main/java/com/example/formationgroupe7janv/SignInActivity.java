@@ -53,7 +53,7 @@ public class SignInActivity extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("checkBox", MODE_PRIVATE);
         boolean checkBox = preferences.getBoolean("rememberMe", false);
         if (checkBox) {
-            startActivity(new Intent(SignInActivity.this, HomeActivity.class));
+            startActivity(new Intent(SignInActivity.this, ProfileActivity.class));
         }
 
         rememberMe.setOnCheckedChangeListener((buttonView, isChecked) -> {
@@ -90,7 +90,7 @@ public class SignInActivity extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("checkBox", MODE_PRIVATE);
         FirebaseUser logedUser = firebaseAuth.getCurrentUser();
         if (logedUser.isEmailVerified()) {
-            startActivity(new Intent(SignInActivity.this, HomeActivity.class));
+            startActivity(new Intent(SignInActivity.this, ProfileActivity.class));
             SharedPreferences.Editor editor = preferences.edit();
             editor.putString("emailUser", logedUser.getEmail());
             editor.apply();

@@ -16,10 +16,11 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         getSupportActionBar().hide();
 
-        emailUser = findViewById(R.id.emailUser);
 
-        SharedPreferences preferences = getSharedPreferences("checkBox", MODE_PRIVATE);
-        String email = preferences.getString("emailUser", "");
-        emailUser.setText(email);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
